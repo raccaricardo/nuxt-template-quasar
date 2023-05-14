@@ -1,0 +1,29 @@
+// set theme colors
+ 
+$primary   : #cce8de;
+$secondary : #69e0b1;
+$accent    : #0b6c99;
+
+$dark      : #009688;
+$dark-page : #0b5e3d;
+
+// add custom colors to the bootstrap theme
+// $custom-theme-colors: (
+//         "theme1": $theme1,
+//         "white": $white
+// );
+
+// // fix for bootstrap 5.1 transposing colors
+// $theme-colors: map-merge($theme-colors, $custom-theme-colors);
+// $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+// // Overwrite bootstrap sass variables (check _variables for all options)
+// $enable-negative-margins: true;
+$input-btn-padding-x: 1rem;
+$font-size-base: .85rem;
+$border-radius: 2px;
+// $link-color: $theme1;
+// Load a custom font
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,800;0,900;1,700&display=swap');
+
+$font-family-base: 'Fira Sans', sans-serif;
